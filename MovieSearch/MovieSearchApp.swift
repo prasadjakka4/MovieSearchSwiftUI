@@ -2,7 +2,7 @@
 //  MovieSearchApp.swift
 //  MovieSearch
 //
-//  Created by Harshavardhan Tadiparthi on 07/06/24.
+//  Created by Prasad Jakka on 07/06/24.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct MovieSearchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MovieSearchView(model: MovieSearchViewModel(apiManager: APIManager.shared))
         }
     }
 }

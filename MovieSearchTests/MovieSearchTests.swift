@@ -2,7 +2,7 @@
 //  MovieSearchTests.swift
 //  MovieSearchTests
 //
-//  Created by Harshavardhan Tadiparthi on 07/06/24.
+//  Created by Prasad Jakka on 07/06/24.
 //
 
 import XCTest
